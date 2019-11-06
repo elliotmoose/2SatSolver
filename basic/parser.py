@@ -1,7 +1,10 @@
-INPUT_FILE_PATH = "./example1.cnf"
-
+# INPUT_FILE_PATH = "./example1.cnf"
+INPUT_FILE_PATH = "./2sat.cnf"
 
 def parse_cnf_file(file_path):
+    """
+    Generates the array of clauses
+    """
     cnf_file = open(file_path, "r")
     lines = cnf_file.readlines()
 
