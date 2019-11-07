@@ -1,7 +1,7 @@
 # INPUT_FILE_PATH = "./example1.cnf"
 INPUT_FILE_PATH = "./2sat.cnf"
 
-def parse_cnf_file(file_path):
+def parse_cnf_file_to_clauses(file_path):
     """
     Generates the array of clauses
     """

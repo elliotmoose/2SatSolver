@@ -1,4 +1,4 @@
-import node
+import basic.node as node
 
 def graph_nodes_from_edges(edges):
     #edges are defined as such: 
@@ -70,5 +70,3 @@ def edges_from_clauses(clauses):
         edges.append(edge_two)
 
     return edges
-            
-            

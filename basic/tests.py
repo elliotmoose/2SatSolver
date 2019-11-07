@@ -1,5 +1,5 @@
-import cnfgraph as graph
-import parser
+import basic.cnfgraph as graph
+import basic.parser as parser
 def test():
     """
     automated test to test functionality of functions
@@ -7,7 +7,7 @@ def test():
     print("=====Running Tests=====\n")
     print("negate(): ", "PASS" if graph.negate("-1") == "1" and graph.negate("1") == "-1" else "FAIL")
     
-    clauses = parser.parse_cnf_file(parser.INPUT_FILE_PATH) 
+    clauses = parser.parse_cnf_file_to_clauses(parser.INPUT_FILE_PATH) 
 
     # edges = graph.edges_from_clauses([["1","2"]])
     edges = graph.edges_from_clauses(clauses)

@@ -1,11 +1,4 @@
-c This is a CNF SAT formula in the DIMACS CNF format,
-c produced with the bc2cnf translator by Tommi Junttila;
-c see http://users.ics.aalto.fi/tjunttil/circuits/index.html
-c Z <-> 1
-c Y2 <-> 2
-c Y1 <-> 5
-c B <-> 7
-c A <-> 8
+c This is a sample 2sat problem
 p cnf 3 3
 1 2 0
 2 3 0
